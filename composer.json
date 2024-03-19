@@ -1,0 +1,30 @@
+{
+    "description": "Effortlessly manage your WooCommerce store with the Delete All Products plugin, allowing you to efficiently delete all products in just few clicks.",
+    "license": "GPL-2.0-or-later",
+    "config": {
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "Themedyno"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DAPRODS\\": [
+                "inc/"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DAPRODS\\Test\\": [
+                "test/phpunit/"
+            ]
+        }
+    }
+}
